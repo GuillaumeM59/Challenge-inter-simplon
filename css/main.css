@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+button {width: 30%;
+background-color:white;
+color:rgb(95, 55, 170);
+border-radius: 5%;}
+
+/*NAVBAR*/
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  color: white;
+  padding: 2% 0;
+}
+nav ul {
+  display: inline-block;
+      color: white;
+      padding: 0 2%;
+
+
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+    color: white;
+
+
+}
+.navlogo {
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*HEADER STYLE*/
+
+header {
+  float: none;
+  width: 100%;
+  background-image: url("../img/payments-banner-graphic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 20% 0;
+}
+
+/*AVANTAGES STYLES*/
+
+#avantages {
+    color:rgb(89, 89, 89);
+  padding: 5% 0;
+}
+#avantages div {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+#avantages div img {
+  width: 15%;
+}
+#avantctr {
+  border-right: 1px solid rgb(201, 201, 201);
+  border-left: 1px solid rgb(201, 201, 201);
+}
+
+/*SIMPLE PRICE SECTION*/
+
+#simpleprice {
+  border-top: 1px solid rgb(201, 201, 201);
+  text-align: center;
+  padding: 7% 0;
+    color:rgb(89, 89, 89);
+  background-color: rgb(235, 235, 235);
+}
+#doleft,#doright{ display: inline-block;
+}
+#doleft{
+  width: 44%;
+  text-align: right;
+  color: rgb(109, 61, 131);
+  font-size: 2.5em;
+  font-weight: 500;
+}
+#doright{
+  width: 55%;
+  text-align: left;
+}
+
+
+/*CARD SECTION*/
+#ccards {
+  padding: 3% 0;
+  color: rgb(235, 235, 235);
+  text-align: center;
+  background-color: rgb(89, 89, 89);
+}
+
+
+/*6 BLOCS SECTION*/
+#bloc1 img  { width: 100%;}
+#bloc4 img  { width: 100%;}
+#bloc5 img  { width: 100%;}
+#bloc1,#bloc3,#bloc5{
+  float: left;
+  width: 40%;
+  display: inline-block;
+  height: 400px;
+  overflow-y: hidden;
+  padding-top: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#bloc2,#bloc4,#bloc6 {
+  float: right;
+  width: 40%;
+  display: inline-block;
+  height: 400px;
+  overflow-y: hidden;
+  padding-top: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+#bloc1,#bloc5 {
+  background-color: rgb(98, 180, 150);
+}
+#bloc4 {
+  background-color:rgb(95, 55, 170);
+}
+#bloc2,#bloc3,#bloc6 {
+  color: rgb(89, 89, 89);
+  text-align: left;
+}
+#blocs h2 {
+  padding: 5% 0;
+}
+
+/*CREATE ACCOUNT SECTION*/
+
+
+
+
+/*FOOTER */
+footer {
+  background-color: rgb(89, 89, 89);
+  color: rgb(182, 182, 182);
+ display: inline-block;
+ padding: 5% 12%;
+ width: 100%;
+}
+
+footer ul {
+   display: inline-block;
+  width: 22%;
+  list-style: none
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgb(235, 235, 235);
+}
