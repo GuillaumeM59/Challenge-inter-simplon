@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .fleft {
   float: left;
@@ -18,16 +19,21 @@ nav {
   height: 50px;
   width: 100%;
   color: white;
-  padding-top: 10px;
+  padding: 2% 0;
 }
 nav ul {
   display: inline-block;
       color: white;
+      padding: 0 2%;
+
+
 }
 nav ul li {
   list-style: none;
   display: inline;
     color: white;
+
+
 }
 .navlogo {
   width: 30px;
@@ -130,5 +136,11 @@ header {
 }
 #bloc4 {
   background-color:rgb(95, 55, 170);
-
+}
+#bloc2,#bloc3,#bloc6 {
+  color: rgb(89, 89, 89);
+  text-align: left;
+}
+#blocs h2 {
+  padding: 5% 0;
 }
